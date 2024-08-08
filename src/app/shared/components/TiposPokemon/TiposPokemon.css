@@ -1,0 +1,14 @@
+.Tipos-poke{
+margin-top: 2rem;
+display: flex;
+gap: 8px;
+flex-wrap: wrap;
+background-color: rgba(0, 0, 0, 0.123);
+padding: 15px;
+border-radius: 30px;
+}
+
+.Tipos-poke img{
+width: 40px;
+
+}

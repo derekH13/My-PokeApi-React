@@ -1,0 +1,19 @@
+.btn-comidas{
+    background-color: #F8D16E;
+    padding: 14px;
+    width: 12rem;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.btn-tipo{
+    background-color: #f8d16e00;
+    border: solid 5px #F8D16E;
+    color: #F8D16E;
+    padding: 9px;
+    width: 12rem;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,101 @@
+.container-carousel{
+    margin-top: 8rem;
+    height: 60rem;
+    z-index: 4;
+
+}
+
+.mostrar-secao{
+    margin-top: -23rem;
+}
+
+.container-img{
+    width: 100%;
+    text-align: center;
+}
+
+.container-img img{
+    margin-top: -5rem;
+    width: 20rem;
+    filter: drop-shadow(-10px 10px 8px rgba(0, 0, 0, 0.719));
+}
+
+.container-img h1{
+    padding-top: 6rem;
+    font-weight: 900;
+    color: white;
+    font-size: 3.9rem;
+    line-height: 60px;
+    text-shadow: -2px 7px 4px rgba(0, 0, 0, 0.404);
+}
+
+.info-poke{
+    margin-top: 30rem;
+    position: absolute;
+}
+
+.container-img h3{
+    padding-top: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    height: 9rem;
+    background-color: #00000015;
+    border-radius: 30px;
+
+}
+
+.btn-planta{
+    margin-top: 2rem;
+    background-color: #F8D16E;
+    padding: 14px;
+    width: 90%;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.63);
+}
+
+.grama{
+    background-color: #197017;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.agua{
+    background-color: #038BB5;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.fogo{
+    background-color: #8d2c2c;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.dark{
+    background-color: #5a2d80;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.psiquico{
+    background-color: #b4629c;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    border-radius: 50px;
+    z-index: -1;
+}

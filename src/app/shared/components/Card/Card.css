@@ -1,0 +1,140 @@
+.card-poke{
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 20px;
+    height: 20rem;
+    width: 50%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: inset 0px -10px 20px 5px rgba(0, 0, 0, 0.562);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, hsl(128, 56%, 32%), hsl(128, 64%, 27%), hsla(128, 61%, 36%, 0.282), hsla(128, 29%, 51%, 0.173));
+}
+
+.card-poke img{
+position: absolute;
+transform: translateY(-10rem);
+}
+
+
+.card-poke .title{
+    padding-top: 5rem;
+font-size: 1.4rem;
+font-weight: 800;
+}
+
+.types-pokemon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding-top: 1rem;
+}
+
+.types-pokemon span{
+padding: 5px;
+width: 90px;
+font-size: 1.3rem;
+font-weight: 800;
+text-align: center;
+border-radius: 20px;
+box-shadow: inset 0px 0px 10px 10px rgba(39, 39, 39, 0.322);
+}
+
+.id, .info h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #141414;
+}
+
+.info{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.info .info-altura h1, .info-peso h1{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+
+.fire{
+    background-color: #ffb006d0;
+}
+
+.normal{
+    background-color: rgb(127, 127, 127);
+}
+
+.psychic{
+    background-color: rgb(190, 129, 210);
+}
+
+.bug{
+    background-color: #92B34B;
+}
+
+.dragon{
+    background-color: #1D69B2;
+}
+
+.electric{
+    background-color: #E8D340;
+}
+
+.fairy{
+    background-color: #C695CC;
+}
+
+.fighting{
+    background-color: #9C3F61;
+}
+
+.flying{
+    background-color: #96A7DD;
+}
+
+.ghost{
+    background-color: #5A658F;
+}
+
+.grass{
+    background-color: #67B567;
+}
+
+.water{
+    background-color: #027AA9;
+}
+
+.steel{
+    background-color: #4e4e4e;
+}
+
+.dark{
+    background-color: #39145e;
+}
+
+.ice{
+    background-color: #67b5af;
+}
+
+.ground{
+    background-color: #7a7540;
+}
+
+.rock{
+    background-color: #4b4a39;
+}
+
+.poison{
+    background-color: #6420be;
+}

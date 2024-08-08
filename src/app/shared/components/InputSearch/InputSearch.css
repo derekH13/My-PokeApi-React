@@ -1,0 +1,13 @@
+.btn-pesquisar{
+    background-color: #F8D16E;
+    border: none;
+    box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.356);
+    }
+    
+.btn-pesquisar svg path{
+    color: white;
+    stroke-width: 4px;
+}
+    
+
+    
