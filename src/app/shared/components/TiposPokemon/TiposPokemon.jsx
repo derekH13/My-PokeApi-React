@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import './TiposPokemon.css'
+import AppContext from "../../contexts/AppContext";
 
 // =========== imagem
 
@@ -15,23 +16,45 @@ import tipo9 from '../../img/icone/tipo (9).png'
 import tipo10 from '../../img/icone/tipo (10).png'
 import tipo11 from '../../img/icone/tipo (11).png'
 import tipo12 from '../../img/icone/tipo (12).png'
+import Util from "../../Util/Util";
+
+
+
+
 
 function TiposPokemon(){
+
+    const {arrayTipo, setArrayTipo} = useContext(AppContext)
+    const [tipo, setTipo] = useState('fire')
+
+
+
+//sempre que o tipo mudar declare ele
+useEffect(() => {
+    
+    Util.buscarTipo(tipo).then(data => {
+        setArrayTipo(data)
+    })
+}, [tipo])
+
+
+
+
     return(
         <div className="container-Tipos-poke">
             <div className="Tipos-poke">
-                <img src={tipo1} alt="1M" />
-                <img src={tipo2} alt="1M" />
-                <img src={tipo3} alt="1M" />
-                <img src={tipo4} alt="1M" />
-                <img src={tipo5} alt="1M" />
-                <img src={tipo6} alt="1M" />
-                <img src={tipo7} alt="1M" />
-                <img src={tipo8} alt="1M" />
-                <img src={tipo9} alt="1M" />
-                <img src={tipo10} alt="1M" />
-                <img src={tipo11} alt="1M" />
-                <img src={tipo12} alt="1M" />
+                <img src={tipo1} value={tipo} alt="1M" onClick={() => setTipo('psychic')} />
+                <img src={tipo2}  alt="1M" onClick={() => setTipo('dark')}/>
+                <img src={tipo3} alt="1M" onClick={() => setTipo('grass')}/>
+                <img src={tipo4} alt="1M" onClick={() => setTipo('bug')}/>
+                <img src={tipo5} alt="1M" onClick={() => setTipo('flying')}/>
+                <img src={tipo6} alt="1M" onClick={() => setTipo('normal')}/>
+                <img src={tipo7} alt="1M" onClick={() => setTipo('water')}/>
+                <img src={tipo8} alt="1M" onClick={() => setTipo('dragon')}/>
+                <img src={tipo9} alt="1M" onClick={() => setTipo('ghost')}/>
+                <img src={tipo10} alt="1M" onClick={() => setTipo('poison')}/>
+                <img src={tipo11} alt="1M" onClick={() => setTipo('fire')}/>
+                <img src={tipo12} alt="1M" onClick={() => setTipo('ice')}/>
             </div>
      </div>
     )

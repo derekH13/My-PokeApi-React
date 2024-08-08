@@ -9,13 +9,22 @@ import propTypes from 'prop-types'
 //pega todos os filhos de componentes que queremos em um contexto
 function Provider({children}) {
 
-    const [valuePokemon, setValuePokemon] = useState("")
+const [PokeDados, setPokeDados] = useState([])
+const [loading, setLoading] = useState(true)
+const [TipoPokemon, setTipoPokemon] = useState([])
+const [arrayTipo, setArrayTipo] = useState([])
 
 
     //essas variaveis são passadas para o Context
     const value = {
-        valuePokemon,
-        setValuePokemon
+        PokeDados, 
+        setPokeDados,
+        loading,
+        setLoading,
+        TipoPokemon, 
+        setTipoPokemon,
+        arrayTipo, 
+        setArrayTipo
         }
 
     return ( 

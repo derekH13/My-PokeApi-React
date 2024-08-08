@@ -64,7 +64,7 @@ function CarouselTipos(){
 
         <div class="hidden container-img duration-700 ease-in-out" data-carousel-item>
           
-        <div className="dark"></div>
+        <div className="dark1"></div>
                 <h1 >Tipo Dark</h1>
 
                 <img src={gengar} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />

@@ -6,6 +6,6 @@
 .container-PokeDex{
     padding-top: 6rem;
     background-color: #000000;
-    height: 100vh;
+    height: min-content;
 }
 
