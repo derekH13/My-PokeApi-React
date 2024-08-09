@@ -34,15 +34,22 @@
     position: absolute;
 }
 
-.container-img h3{
-    padding-top: 1rem;
+.container-img .info-poke h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    font-size: 1.2rem;
-    height: 9rem;
+    font-size: 1.1rem;
+    height: 10rem;
     background-color: #00000015;
     border-radius: 30px;
 
 }
+
+.psiqui{
+    margin-top: -4rem;
+}
+
 
 .btn-planta{
     margin-top: 2rem;
@@ -58,7 +65,7 @@
 .grama{
     background-color: #197017;
     position: absolute;
-    height: 100vh;
+    height: 108vh;
     width: 100%;
     border-radius: 50px;
     z-index: -1;
@@ -67,7 +74,7 @@
 .agua{
     background-color: #038BB5;
     position: absolute;
-    height: 100vh;
+    height: 108vh;
     width: 100%;
     border-radius: 50px;
     z-index: -1;
@@ -76,16 +83,18 @@
 .fogo{
     background-color: #8d2c2c;
     position: absolute;
-    height: 100vh;
+    height: 108vh;
     width: 100%;
     border-radius: 50px;
     z-index: -1;
+    
+
 }
 
 .dark1{
     background-color: #5a2d80;
     position: absolute;
-    height: 100vh;
+    height: 108vh;
     width: 100%;
     border-radius: 50px;
     z-index: -1;
@@ -94,7 +103,7 @@
 .psiquico{
     background-color: #b4629c;
     position: absolute;
-    height: 100vh;
+    height: 108vh;
     width: 100%;
     border-radius: 50px;
     z-index: -1;

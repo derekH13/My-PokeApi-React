@@ -6,6 +6,7 @@ import StatsPoke from "../../shared/components/StatsPoke/StatsPoke";
 import Provider from "../../shared/contexts/Provider";
 import AppContext from "../../shared/contexts/AppContext";
 import { useLocation } from "react-router-dom";
+import NavBarMobille from "../../shared/components/NavBarMobille/NavBarMobille";
 
 
 

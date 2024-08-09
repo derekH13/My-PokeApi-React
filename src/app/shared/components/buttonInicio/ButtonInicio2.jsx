@@ -5,7 +5,7 @@ import './ButtonInicio.css'
 
 function ButtonInicio2(){
     return(
-        <a href="#">
+        <a href="#tipos">
             <button className="btn-tipo">
                  Veja os Tipos
             </button>

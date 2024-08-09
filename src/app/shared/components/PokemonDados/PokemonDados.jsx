@@ -12,7 +12,7 @@ const { PokeDados, setPokeDados, setLoading, loading,  arrayTipo } = useContext(
 const [ arrayBuscaTipo, setArrayBuscaTipo] = useState([])
 
 useEffect(() => {
-    Util.requisicao('7').then(data => {
+    Util.requisicao('150').then(data => {
         setPokeDados(data)
         console.log('d')
         setLoading(false)

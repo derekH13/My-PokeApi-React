@@ -10,7 +10,7 @@
 }
 
 .interface-stats{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 25px;
 }
@@ -51,6 +51,18 @@ font-weight: 700;
 font-size: 1.1rem;
 }
 
+.AlturaPoke1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.AlturaPoke1 h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 .alinhar-stats h1{
 margin-left: 1rem;
 height: 15px;
@@ -59,7 +71,7 @@ justify-content:left;
 align-items: center;
 border-radius: 20px;
 font-size: 15px;
-margin-left: 14rem;
+margin-left: 18rem;
 position: relative;
 background-color: rgb(0, 136, 255);
 text-align: right;
@@ -68,8 +80,12 @@ text-align: right;
 .alinhar-stats h1 .barra{
 background-color: #333;
 border-radius: 20px;
-width:60cqi;
-max-width: 55cqi;
+max-width: 65cqi;
 position: absolute;
-margin-left: -13rem;
+margin-left: -17.5rem;
+color: white;
+padding-left: 1rem;
+display: flex;
+height: 20px;
+justify-content: left;
 }

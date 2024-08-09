@@ -27,7 +27,7 @@ function CarouselTipos(){
 
                 <img src={squirtle} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 <div className="info-poke">
-                    <h3>Cada criatura tem sua própria história e habilidades únicas. Eles nos ensinam sobre amizade, estratégia e a importância da perseverança na jornada da vida.</h3>
+                    <h3>Tipo Água são os mestres dos oceanos representando a fluidez e a adaptabilidade da própria água. Com movimentos que variam desde potentes jatos de água até ondas devastadoras, são versáteis tanto em batalha quanto em ambiente.</h3>
                     <button className="btn-planta">
                     Escolha um Tipo Agua
                     </button>
@@ -40,7 +40,7 @@ function CarouselTipos(){
 
                 <img src={Ivysaur} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 <div className="info-poke">
-                    <h3>Cada criatura tem sua própria história e habilidades únicas. Eles nos ensinam sobre amizade, estratégia e a importância da perseverança na jornada da vida.</h3>
+                    <h3>Tipo Grama são os guardiões da natureza, conectados profundamente com a terra e o poder do crescimento. Com habilidades que evocam plantas, vinhas e flores, eles utilizam a força da natureza para curar, proteger e atacar. </h3>
                     <button className="btn-planta">
                     Escolha um Tipo Planta
                     </button>
@@ -55,7 +55,7 @@ function CarouselTipos(){
 
                 <img src={Charmander} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 <div className="info-poke">
-                    <h3>Cada criatura tem sua própria história e habilidades únicas. Eles nos ensinam sobre amizade, estratégia e a importância da perseverança na jornada da vida.</h3>
+                    <h3>Tipo fogo são conhecidos por sua natureza ardente e espírito indomável. Com habilidades que evocam chamas e calor, eles são mestres em atacar com intensidade e velocidade. </h3>
                     <button className="btn-planta">
                     Escolha um Tipo Fogo
                     </button>
@@ -69,7 +69,7 @@ function CarouselTipos(){
 
                 <img src={gengar} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 <div className="info-poke">
-                    <h3>Cada criatura tem sua própria história e habilidades únicas. Eles nos ensinam sobre amizade, estratégia e a importância da perseverança na jornada da vida.</h3>
+                    <h3>Tipo Dark são conhecidos por sua astúcia, mistério e poder sombrio. Muitas vezes associados à noite e às sombras, eles utilizam táticas furtivas e ataques imprevisíveis para confundir e dominar seus oponentes.</h3>
                     <button className="btn-planta">
                     Escolha um Tipo Dark
                     </button>
@@ -83,8 +83,8 @@ function CarouselTipos(){
                 <h1 >Tipo psychic</h1>
 
                 <img src={Ralts} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-                <div className="info-poke">
-                    <h3>Cada criatura tem sua própria história e habilidades únicas. Eles nos ensinam sobre amizade, estratégia e a importância da perseverança na jornada da vida.</h3>
+                <div className="info-poke"> 
+                    <h3 className="psiqui">Tipo Psíquico são mestres da mente e do poder mental. Com habilidades que transcendem o físico, eles manipulam forças invisíveis para confundir, hipnotizar e dominar seus oponentes.</h3>
                     <button className="btn-planta">
                     Escolha um Tipo Psiquico
                     </button>

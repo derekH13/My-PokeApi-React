@@ -125,7 +125,7 @@ text-align: center;
 }
 
 .dark{
-    background-color: #39145e;
+    background-color: #630bd4c0;
 }
 
 .ice{
@@ -162,7 +162,7 @@ text-align: center;
 }
 
 .fundo-flying{
-    background-image: linear-gradient(to top, hsl(0, 6%, 35%), hsl(0, 6%, 35%), hsla(0, 6%, 36%, 0.282), hsla(0, 6%, 35%, 0.173));
+    background-image: linear-gradient(to top, hsl(295, 6%, 35%), hsl(0, 6%, 35%), hsla(0, 6%, 36%, 0.282), hsla(0, 6%, 35%, 0.173));
 }
 
 .fundo-poison{
@@ -206,5 +206,5 @@ text-align: center;
 }
 
 .fundo-fighting{
-    background-image: linear-gradient(to top, hsla(12, 68%, 36%, 0.954), hsla(12, 56%, 39%, 0.621), hsla(11, 59%, 21%, 0.282), hsla(288, 34%, 51%, 0));
+    background-image: linear-gradient(to top, hsla(325, 68%, 36%, 0.954), hsla(325, 56%, 39%, 0.621), hsla(325, 59%, 21%, 0.282), hsla(288, 34%, 51%, 0));
 }

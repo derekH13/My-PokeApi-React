@@ -1,8 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import './ClickPokeImage.css'
 
-import img3 from '../../img/Ivysaur-.png'
-import AppContext from "../../contexts/AppContext";
+
 
 function ClickPokeImage( data ){
 

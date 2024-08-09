@@ -4,7 +4,7 @@ import './ButtonInicio.css'
 
 function ButtonInicio(text){
     return(
-        <a href="#">
+        <a href="#comidas">
             <button className="btn-comidas">
              Comidas
             </button>

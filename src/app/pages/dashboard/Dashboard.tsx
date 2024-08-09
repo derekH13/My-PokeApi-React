@@ -22,17 +22,21 @@ import Footer from '../../shared/components/Footer/Footer'
 import ButtonGrup from '../../shared/components/ButtonGrup/ButtonGrup'
 import CarouselInfinite from '../../shared/components/CarouselInfinite/CarouselInfinite'
 import Provider from '../../shared/contexts/Provider'
+import NavBarMobille from '../../shared/components/NavBarMobille/NavBarMobille'
 
 
 //aqui é uma pagina
 export const Dashboard = () => {
     return(
         <Provider>
-        <div className='pokemon-informacoes'>
+        <div className='pokemon-informacoes' id='pokeApi'>
             {/* <Link to="/entar">Login</Link> */}
                 <NavBar />
+                <NavBarMobille />
 
-                <div className="conteudoInicio">
+
+
+                <div className="conteudoInicio" >
                     <h1 className='shadow-Text'>Pokemon <br /> saiba mais sobre esses bichos</h1>
                     <h3>Cada criatura tem sua própria história e habilidades únicas. Eles nos ensinam sobre amizade, estratégia e a importância da perseverança na jornada da vida.</h3>
                 </div>
@@ -50,6 +54,7 @@ export const Dashboard = () => {
 
                     <CarouselInfinite />
 
+                    <div id="tipos"></div>
                     <CarouselTipos />
 
                     <div id="comidas">
