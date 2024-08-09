@@ -1,6 +1,7 @@
 .Tipos-poke{
 margin-top: 2rem;
 display: flex;
+justify-content: center;
 gap: 8px;
 flex-wrap: wrap;
 background-color: rgba(0, 0, 0, 0.123);

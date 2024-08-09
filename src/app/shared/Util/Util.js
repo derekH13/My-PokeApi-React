@@ -49,7 +49,7 @@ static async buscarTipo(pesquisa) {
 
     let data= []; // Initialize data as an empty array
 
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 35; i++) {
         if (result[i] && result[i].pokemon && result[i].pokemon.name) {
             const pokemonData = await Util.requisicao(result[i].pokemon.name);
             if (pokemonData) {

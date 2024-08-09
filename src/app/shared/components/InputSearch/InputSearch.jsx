@@ -6,6 +6,7 @@ import Util from "../../Util/Util";
 
 
 
+
 function InputSearch(){
 
 //criar context
@@ -26,7 +27,7 @@ const handleSearch = async (e) => {
     //depois de carregar a pesquisa parar o spinner
     setLoading(false)
 
-    !result? console.log('não exite') :
+    !result? console.log('error') :
 
     //limpa a pesquisa
     setSearchValue('')

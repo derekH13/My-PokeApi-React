@@ -2,6 +2,8 @@
 
 import './Dashboard.css'
 
+import 'react-toastify/dist/ReactToastify.min.css'
+
 // =================== imagem ====================
 import snorlax from '../../shared/img/snorlax.png'
 import dormindo from '../../shared/img/domindo.png'

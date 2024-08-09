@@ -1,0 +1,55 @@
+.ClickPokeImage{
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 8rem;
+}
+
+
+.ClickPokeImage img{
+    width: 70%;
+
+}
+
+.ClickPokeImage h1{
+    margin-top: -1rem;
+    font-weight: 900;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 60px;
+        text-shadow: -2px 7px 4px rgba(0, 0, 0, 0.404);
+}
+
+.ClickPokeImage h3{
+    padding-top: .5rem;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 5px 4px rgba(0, 0, 0, 0.404);
+
+}
+
+.ClickPokeImage .types-pokemon1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ClickPokeImage .types-pokemon1 span{
+    width: 10rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.404);
+    box-shadow: -2px 7px 10px rgba(0, 0, 0, 0.404);
+    border-radius: 20px;
+}

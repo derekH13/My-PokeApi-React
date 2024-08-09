@@ -11,6 +11,9 @@ import CarouselInfinite from "../../shared/components/CarouselInfinite/CarouselI
 import TiposPokemon from "../../shared/components/TiposPokemon/TiposPokemon";
 import Provider from "../../shared/contexts/Provider";
 import PokemonDados from "../../shared/components/PokemonDados/PokemonDados";
+import Footer from "../../shared/components/Footer/Footer";
+import ButtonGrup from "../../shared/components/ButtonGrup/ButtonGrup";
+import ClickPoke from "../ClickPoke/ClickPoke";
 
 
 export const PokeDex = () => {
@@ -38,8 +41,14 @@ export const PokeDex = () => {
 
             </section>
             
+            <div className="footer">
+                        <ButtonGrup />
+                        <Footer />
+            </div>
 
-            </Provider>
+           
+
+            </Provider>    
     );
 }
 

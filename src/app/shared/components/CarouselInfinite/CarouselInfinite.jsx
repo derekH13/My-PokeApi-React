@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import './CarouselInfinite.css';
 
 
@@ -14,10 +14,13 @@ import tipo9 from '../../img/icone/tipo (9).png'
 import tipo10 from '../../img/icone/tipo (10).png'
 import tipo11 from '../../img/icone/tipo (11).png'
 import tipo12 from '../../img/icone/tipo (12).png'
+import AppContext from "../../contexts/AppContext";
 
 
 
 function CarouselInfinite() {
+
+
   useEffect(() => {
     const logosContainer = document.querySelector(".logos");
     if (logosContainer && logosContainer.childElementCount < 1) {

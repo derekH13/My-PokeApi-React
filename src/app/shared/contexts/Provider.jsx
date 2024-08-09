@@ -13,6 +13,9 @@ const [PokeDados, setPokeDados] = useState([])
 const [loading, setLoading] = useState(true)
 const [TipoPokemon, setTipoPokemon] = useState([])
 const [arrayTipo, setArrayTipo] = useState([])
+const [CardMostrar, setCardMostrar] = useState('')
+
+
 
 
     //essas variaveis são passadas para o Context
@@ -24,7 +27,10 @@ const [arrayTipo, setArrayTipo] = useState([])
         TipoPokemon, 
         setTipoPokemon,
         arrayTipo, 
-        setArrayTipo
+        setArrayTipo,
+        CardMostrar, 
+        setCardMostrar,
+
         }
 
     return ( 
