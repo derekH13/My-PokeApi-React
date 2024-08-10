@@ -32,6 +32,7 @@
 .info-poke{
     margin-top: 30rem;
     position: absolute;
+    width: 100%;
 }
 
 .container-img .info-poke h3{
@@ -43,12 +44,10 @@
     height: 10rem;
     background-color: #00000015;
     border-radius: 30px;
-
+    width: 100%;
 }
 
-.psiqui{
-    margin-top: -4rem;
-}
+
 
 
 .btn-planta{
@@ -60,6 +59,7 @@
     font-weight: 700;
     font-size: 1.4rem;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.63);
+    transition: all ease .3s;
 }
 
 .grama{
@@ -107,4 +107,10 @@
     width: 100%;
     border-radius: 50px;
     z-index: -1;
+}
+
+
+.btn-planta:hover{
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.63);
+    transform: scale(0.98);
 }

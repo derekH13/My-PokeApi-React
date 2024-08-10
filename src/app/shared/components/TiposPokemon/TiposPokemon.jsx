@@ -24,16 +24,20 @@ import Util from "../../Util/Util";
 
 function TiposPokemon(){
 
-    const {arrayTipo, setArrayTipo} = useContext(AppContext)
+
+    const {arrayTipo, setArrayTipo, setLoading} = useContext(AppContext)
     const [tipo, setTipo] = useState('fire')
 
 
 
 //sempre que o tipo mudar declare ele
 useEffect(() => {
-    
+    setLoading(true)
+
     Util.buscarTipo(tipo).then(data => {
         setArrayTipo(data)
+
+        setLoading(false)
     })
 }, [tipo])
 

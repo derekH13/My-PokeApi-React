@@ -6,7 +6,7 @@
     aspect-ratio: 3/4;
     background: rgba(247, 247, 247, 0.226);
     box-shadow: 2px 8px 20px 15px rgba(58, 58, 58, 0.562);
-    
+    cursor: pointer;
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 30px;
@@ -16,6 +16,11 @@
     justify-content: center;
     align-items: center;
     border-top: none;
+    transition: all ease .3s;
+}
+
+.card-poke:hover{
+    transform: scale(0.95);
 }
 
 .card-poke img{

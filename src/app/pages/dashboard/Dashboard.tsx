@@ -23,10 +23,16 @@ import ButtonGrup from '../../shared/components/ButtonGrup/ButtonGrup'
 import CarouselInfinite from '../../shared/components/CarouselInfinite/CarouselInfinite'
 import Provider from '../../shared/contexts/Provider'
 import NavBarMobille from '../../shared/components/NavBarMobille/NavBarMobille'
+import EscolherTipo from '../../shared/components/EscolherTipo/EscolherTipo'
 
 
 //aqui é uma pagina
 export const Dashboard = () => {
+
+    const verificar = false
+
+
+
     return(
         <Provider>
         <div className='pokemon-informacoes' id='pokeApi'>
@@ -50,6 +56,15 @@ export const Dashboard = () => {
                     <img className='dormindo' src={dormindo} alt="" />
                     <img className='snorlax' src={snorlax} alt="" />
                 </div>
+
+
+                {/* jeito para abrir um modal */}
+                {verificar &&
+                 <EscolherTipo />
+                }
+
+   
+                
 
 
                     <CarouselInfinite />

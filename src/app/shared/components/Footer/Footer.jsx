@@ -8,9 +8,10 @@ function Footer(){
 <ul className="example-2">
   <li className="icon-content">
     <a
-      href="https://linkedin.com/"
+      href="https://www.linkedin.com/in/derek-henrique-0178632b6/"
       aria-label="LinkedIn"
       data-social="linkedin"
+      target="_blank"
     >
       <div className="filled"></div>
       <svg
@@ -31,7 +32,7 @@ function Footer(){
     <div className="tooltip">LinkedIn</div>
   </li>
   <li className="icon-content">
-    <a href="https://www.github.com/" aria-label="GitHub" data-social="github">
+    <a href="https://github.com/derekH13" aria-label="GitHub" target="_blank" data-social="github">
       <div className="filled"></div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -52,9 +53,10 @@ function Footer(){
   </li>
   <li className="icon-content">
     <a
-      href="https://www.instagram.com/"
+      href="https://www.instagram.com/deckin_3/"
       aria-label="Instagram"
       data-social="instagram"
+      target="_blank"
     >
       <div className="filled"></div>
       <svg
@@ -84,6 +86,7 @@ function Footer(){
         fill="currentColor"
         className="bi bi-youtube"
         viewBox="0 0 16 16"
+         target="_blank"
 
       >
         <path

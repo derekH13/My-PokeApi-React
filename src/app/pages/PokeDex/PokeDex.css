@@ -12,5 +12,6 @@ html{
     background-color: #000000;
     height: min-content;
     padding-bottom: 10rem;
+    min-height: 110vh;
 }
 

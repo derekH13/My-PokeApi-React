@@ -89,3 +89,54 @@ display: flex;
 height: 20px;
 justify-content: left;
 }
+
+
+
+@media (min-width: 900px) {
+    .interface-stats{
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 25px;
+
+    }
+    
+    .alinhar-stats{
+        display: flex;
+        justify-content:right;
+        align-items: center;
+       
+    }
+
+    .alinhar-stats h1{
+
+        margin-left: 30rem;
+
+        }
+        
+        .alinhar-stats h1 .barra{
+        
+            margin-left: -29.5rem;
+
+            }
+
+}
+
+
+@media (min-width: 1350px) {
+
+    .alinhar-stats h1{
+
+        margin-left: 40rem;
+
+        }
+        
+        .alinhar-stats h1 .barra{
+        
+            margin-left: -39.5rem;
+
+            }
+
+
+
+
+}
